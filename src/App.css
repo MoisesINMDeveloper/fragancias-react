@@ -9,9 +9,8 @@
 }
 
 .topbar {
-  position: sticky;
-  top: 0;
-  z-index: 20;
+  position: relative;
+  z-index: 10;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,9 +19,9 @@
   margin-top: 12px;
   border: 1px solid rgba(15, 23, 42, 0.08);
   border-radius: 20px;
-  background: rgba(250, 248, 244, 0.82);
+  background: rgba(250, 248, 244, 0.88);
   backdrop-filter: blur(14px);
-  box-shadow: 0 12px 40px rgba(60, 39, 16, 0.08);
+  box-shadow: 0 12px 40px rgba(60, 39, 16, 0.06);
 }
 
 .brand-wrap {
@@ -216,81 +215,60 @@
   justify-content: center;
 }
 
-.showcase-card {
+.feature-card {
+  width: min(100%, 500px);
   overflow: hidden;
-  position: absolute;
-  border-radius: 26px;
-  box-shadow: 0 28px 60px rgba(64, 55, 45, 0.18);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  background: rgba(255, 255, 255, 0.14);
+  border-radius: 32px;
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(17, 24, 39, 0.08);
+  box-shadow: 0 28px 70px rgba(64, 55, 45, 0.14);
 }
 
-.showcase-card::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.03) 30%, rgba(17, 24, 39, 0.22));
-  pointer-events: none;
+.feature-media {
+  position: relative;
+  height: 520px;
 }
 
-.showcase-card img {
+.feature-media img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: saturate(1.08) contrast(1.04);
+  filter: saturate(1.1) contrast(1.05);
 }
 
-.large-card {
-  width: min(440px, 76%);
-  height: 500px;
-  right: 16%;
-  top: 18px;
-}
-
-.small-card {
-  width: 200px;
-  height: 200px;
-  bottom: 24px;
-  left: 8%;
-  border: 8px solid rgba(255, 248, 240, 0.7);
-}
-
-.floating-badge {
+.feature-tag {
   position: absolute;
-  left: 10%;
-  top: 24px;
+  left: 20px;
+  top: 20px;
+  z-index: 1;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255, 249, 243, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.48);
+  color: #7f6754;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.16rem;
+  text-transform: uppercase;
+}
+
+.feature-content {
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  padding: 14px 18px;
-  background: rgba(255, 249, 243, 0.26);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.42);
-  border-radius: 18px;
-  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
-  z-index: 2;
+  gap: 10px;
+  padding: 22px 22px 24px;
 }
 
-.floating-badge span {
-  font-size: 0.7rem;
-  letter-spacing: 0.18rem;
-  text-transform: uppercase;
-  color: #8e7865;
-}
-
-.floating-badge strong {
-  font-size: 1.05rem;
+.feature-content strong {
+  font-size: clamp(1.4rem, 2vw, 1.8rem);
   color: #171717;
 }
 
-.floating-badge p {
+.feature-content p {
   margin: 0;
-  max-width: 220px;
-  font-size: 0.82rem;
-  line-height: 1.5;
-  color: rgba(23, 23, 23, 0.8);
+  color: #554d49;
+  line-height: 1.7;
 }
 
 .floating-price {
@@ -298,7 +276,7 @@
   align-items: baseline;
   justify-content: space-between;
   gap: 12px;
-  margin-top: 2px;
+  margin-top: 8px;
 }
 
 .floating-price span {
@@ -582,6 +560,71 @@
   text-align: center;
   color: #837a72;
   font-size: 0.8rem;
+}
+
+.floating-social-panel {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.floating-social-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(12px);
+  transition: opacity 0.22s ease, transform 0.22s ease;
+}
+
+.floating-social-menu.open {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.floating-social-link,
+.floating-social-trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 18px 34px rgba(17, 24, 39, 0.14);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.floating-social-link:hover,
+.floating-social-trigger:hover {
+  transform: translateY(-2px);
+}
+
+.floating-social-link.whatsapp {
+  background: linear-gradient(135deg, #2cc76a, #1cb15a);
+}
+
+.floating-social-link.instagram {
+  background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af);
+}
+
+.floating-social-link.email {
+  background: linear-gradient(135deg, #1d4ed8, #2563eb);
+}
+
+.floating-social-trigger {
+  background: linear-gradient(135deg, #171717, #2f2a2a);
 }
 
 .modal-backdrop {

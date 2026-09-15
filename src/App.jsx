@@ -1,9 +1,12 @@
 import { useMemo, useState } from 'react'
 import {
   CameraIcon,
+  EnvelopeIcon,
   LinkIcon,
   MapPinIcon,
   PhoneIcon,
+  PlusIcon,
+  XMarkIcon,
 } from '@heroicons/react/24/outline'
 import products from './data/products.json'
 import siteContent from './data/siteContent.json'
@@ -16,6 +19,7 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState('Todos')
   const [selectedSegment, setSelectedSegment] = useState('Todos')
   const [selectedProduct, setSelectedProduct] = useState(null)
+  const [isSocialMenuOpen, setIsSocialMenuOpen] = useState(false)
 
   const categories = ['Todos', ...new Set(products.map((product) => product.category))]
   const segments = ['Todos', ...new Set(products.map((product) => product.segment))]
@@ -39,10 +43,27 @@ function App() {
   }, [searchTerm, selectedCategory, selectedSegment])
 
   const featuredProduct = products.find((product) => product.featured) ?? products[0]
-  const whatsappLink =
-    siteContent.footer.socialLinks.find((link) =>
-      link.label.toLowerCase().includes('whatsapp')
-    ) ?? siteContent.footer.socialLinks[2]
+
+  const floatingSocialLinks = [
+    {
+      label: 'WhatsApp',
+      href: 'https://wa.me/584124676968',
+      icon: PhoneIcon,
+      colorClass: 'whatsapp',
+    },
+    {
+      label: 'Instagram',
+      href: 'https://instagram.com',
+      icon: CameraIcon,
+      colorClass: 'instagram',
+    },
+    {
+      label: 'Correo',
+      href: 'mailto:hola@atelierlumiere.com',
+      icon: EnvelopeIcon,
+      colorClass: 'email',
+    },
+  ]
 
   const socialIconMap = {
     Instagram: CameraIcon,
@@ -72,20 +93,6 @@ function App() {
             </a>
           ))}
         </nav>
-
-        <a
-          className="header-cta"
-          href={whatsappLink.href}
-          target="_blank"
-          rel="noreferrer"
-          aria-label={whatsappLink.label}
-          title={whatsappLink.label}
-        >
-          {(() => {
-            const Icon = socialIconMap[whatsappLink.label] || LinkIcon
-            return <Icon className="social-icon" aria-hidden="true" />
-          })()}
-        </a>
       </header>
 
       <main>
@@ -115,21 +122,24 @@ function App() {
           </div>
 
           <div className="hero-visual" aria-label="Perfume destacado">
-            <div className="showcase-card large-card">
-              <img src={featuredProduct.imageUrl} alt={featuredProduct.name} />
-            </div>
-            <div className="floating-badge">
-              <span>{siteContent.hero.featuredLabel}</span>
-              <strong>{featuredProduct.name}</strong>
-              <p>{siteContent.hero.featured?.description || featuredProduct.description}</p>
-              <div className="floating-price">
-                <span>{siteContent.hero.featured?.priceLabel || 'Precio'}</span>
-                <strong>
-                  {currency}
-                  {featuredProduct.price}
-                </strong>
+            <article className="feature-card">
+              <div className="feature-media">
+                <span className="feature-tag">{siteContent.hero.featuredLabel}</span>
+                <img src={featuredProduct.imageUrl} alt={featuredProduct.name} />
               </div>
-            </div>
+
+              <div className="feature-content">
+                <strong>{featuredProduct.name}</strong>
+                <p>{siteContent.hero.featured?.description || featuredProduct.description}</p>
+                <div className="floating-price">
+                  <span>{siteContent.hero.featured?.priceLabel || 'Precio'}</span>
+                  <strong>
+                    {currency}
+                    {featuredProduct.price}
+                  </strong>
+                </div>
+              </div>
+            </article>
           </div>
         </section>
 
@@ -294,6 +304,38 @@ function App() {
       </footer>
 
       <div className="site-note">{siteContent.footer.tagline}</div>
+
+      <div className="floating-social-panel" aria-label="Redes sociales">
+        <div className={`floating-social-menu ${isSocialMenuOpen ? 'open' : ''}`}>
+          {floatingSocialLinks.map((link) => {
+            const Icon = link.icon
+
+            return (
+              <a
+                key={link.label}
+                className={`floating-social-link ${link.colorClass}`}
+                href={link.href}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={link.label}
+                title={link.label}
+              >
+                <Icon className="social-icon" aria-hidden="true" />
+              </a>
+            )
+          })}
+        </div>
+
+        <button
+          type="button"
+          className="floating-social-trigger"
+          aria-label="Abrir redes sociales"
+          aria-expanded={isSocialMenuOpen}
+          onClick={() => setIsSocialMenuOpen((open) => !open)}
+        >
+          {isSocialMenuOpen ? <XMarkIcon className="social-icon" /> : <PlusIcon className="social-icon" />}
+        </button>
+      </div>
 
       {selectedProduct && (
         <div className="modal-backdrop" onClick={() => setSelectedProduct(null)}>
