@@ -9,8 +9,9 @@
 }
 
 .topbar {
-  position: relative;
-  z-index: 10;
+  position: sticky;
+  top: 16px;
+  z-index: 20;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -101,12 +102,14 @@
 }
 
 .header-cta {
-  width: 46px;
+  min-width: 300px;
   height: 46px;
-  padding: 0;
-  font-size: 1.15rem;
-  line-height: 1;
+  gap: 8px;
+  padding: 0 16px;
+  border-radius: 14px;
   border: 1px solid rgba(255, 255, 255, 0.12);
+  font-size: 0.78rem;
+  letter-spacing: 0.04rem;
 }
 
 .primary-btn,
@@ -219,9 +222,10 @@
   width: min(100%, 500px);
   overflow: hidden;
   border-radius: 32px;
-  background: rgba(255, 255, 255, 0.82);
-  border: 1px solid rgba(17, 24, 39, 0.08);
-  box-shadow: 0 28px 70px rgba(64, 55, 45, 0.14);
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.92);
+  box-shadow: 0 30px 80px rgba(100, 116, 139, 0.16), 0 0 0 8px rgba(255, 255, 255, 0.38);
+  backdrop-filter: blur(20px);
 }
 
 .feature-media {
@@ -234,7 +238,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: saturate(1.1) contrast(1.05);
+  filter: saturate(1.08) contrast(1.04);
+  transform: scale(1.015);
 }
 
 .feature-tag {
@@ -254,20 +259,28 @@
 }
 
 .feature-content {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin: -72px 18px 18px;
   padding: 22px 22px 24px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(22px);
+  box-shadow: 0 18px 34px rgba(100, 116, 139, 0.14);
 }
 
 .feature-content strong {
   font-size: clamp(1.4rem, 2vw, 1.8rem);
-  color: #171717;
+  color: #17202a;
 }
 
 .feature-content p {
   margin: 0;
-  color: #554d49;
+  color: #5b6470;
   line-height: 1.7;
 }
 
@@ -283,12 +296,12 @@
   font-size: 0.62rem;
   letter-spacing: 0.08rem;
   text-transform: uppercase;
-  color: #6a5346;
+  color: #8b6a4b;
 }
 
 .floating-price strong {
   font-size: 1.2rem;
-  color: #171717;
+  color: #9a6030;
 }
 
 .about {
@@ -421,10 +434,17 @@
 
 .product-card {
   overflow: hidden;
-  border: 1px solid rgba(17, 24, 39, 0.08);
-  border-radius: 22px;
-  background: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 16px 30px rgba(34, 29, 22, 0.04);
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.68);
+  box-shadow: 0 12px 26px rgba(15, 23, 42, 0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(100, 116, 139, 0.24);
+  box-shadow: 0 20px 38px rgba(15, 23, 42, 0.1);
 }
 
 .product-image-wrap {
@@ -445,7 +465,10 @@
 }
 
 .product-body {
-  padding: 18px 18px 20px;
+  padding: 18px 18px 19px;
+  background: rgba(255, 255, 255, 0.78);
+  border-top: 1px solid rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
 }
 
 .product-meta {
@@ -458,7 +481,7 @@
 
 .product-body h3 {
   margin: 16px 0 10px;
-  color: #141414;
+  color: #17202a;
   font-size: 1.5rem;
   letter-spacing: -0.04em;
 }
@@ -466,7 +489,7 @@
 .product-body p {
   min-height: 74px;
   line-height: 1.7;
-  color: #5d554f;
+  color: #5b6470;
 }
 
 .product-footer {
@@ -562,71 +585,6 @@
   font-size: 0.8rem;
 }
 
-.floating-social-panel {
-  position: fixed;
-  right: 24px;
-  bottom: 24px;
-  z-index: 50;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 12px;
-}
-
-.floating-social-menu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  opacity: 0;
-  pointer-events: none;
-  transform: translateY(12px);
-  transition: opacity 0.22s ease, transform 0.22s ease;
-}
-
-.floating-social-menu.open {
-  opacity: 1;
-  pointer-events: auto;
-  transform: translateY(0);
-}
-
-.floating-social-link,
-.floating-social-trigger {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 52px;
-  height: 52px;
-  border: none;
-  border-radius: 50%;
-  color: white;
-  text-decoration: none;
-  box-shadow: 0 18px 34px rgba(17, 24, 39, 0.14);
-  cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.floating-social-link:hover,
-.floating-social-trigger:hover {
-  transform: translateY(-2px);
-}
-
-.floating-social-link.whatsapp {
-  background: linear-gradient(135deg, #2cc76a, #1cb15a);
-}
-
-.floating-social-link.instagram {
-  background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af);
-}
-
-.floating-social-link.email {
-  background: linear-gradient(135deg, #1d4ed8, #2563eb);
-}
-
-.floating-social-trigger {
-  background: linear-gradient(135deg, #171717, #2f2a2a);
-}
-
 .modal-backdrop {
   position: fixed;
   inset: 0;
@@ -654,14 +612,23 @@
   top: 16px;
   right: 16px;
   z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
+  padding: 0;
   border: none;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.9);
   color: #171717;
-  font-size: 2rem;
+  line-height: 0;
   cursor: pointer;
+}
+
+.modal-close .social-icon {
+  width: 20px;
+  height: 20px;
 }
 
 .modal-media {
@@ -751,7 +718,8 @@
   }
 
   .header-cta {
-    width: 100%;
+    width: auto;
+    height: 44px;
   }
 
   .hero {
@@ -819,8 +787,17 @@ body {
 
 .hero-visual {
   min-height: 0;
-  height: clamp(380px, 48vw, 560px);
-  overflow: hidden;
+  height: auto;
+  overflow: visible;
+  align-items: flex-start;
+}
+
+.feature-card {
+  width: min(100%, 500px);
+}
+
+.feature-media {
+  height: clamp(320px, 42vw, 480px);
 }
 
 .showcase-card {
@@ -862,11 +839,23 @@ body {
 
 .product-card {
   border-color: rgba(15, 23, 42, 0.1);
-  box-shadow: 0 16px 30px rgba(15, 23, 42, 0.05);
+  background: rgba(255, 255, 255, 0.78);
+  border-color: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 18px 34px rgba(100, 116, 139, 0.12);
+}
+
+.product-card .product-meta span {
+  color: #8b6a4b;
+}
+
+.product-card .product-footer strong {
+  color: #9a6030;
 }
 
 .product-footer button {
-  background: #e2e8f0;
+  background: #f3e4d4;
+  border: 1px solid #e4c8a9;
+  color: #7b4d2c;
 }
 
 .modal-backdrop {
@@ -894,7 +883,8 @@ body {
 
 @media (max-width: 900px) {
   .hero-visual {
-    height: clamp(360px, 70vw, 500px);
+    height: auto;
+    align-items: flex-start;
   }
 
   .product-modal {
@@ -908,8 +898,12 @@ body {
 
 @media (max-width: 640px) {
   .hero-visual {
-    height: 360px;
+    height: auto;
     margin-inline: -4px;
+  }
+
+  .feature-media {
+    height: 360px;
   }
 
   .large-card {

@@ -5,7 +5,6 @@ import {
   LinkIcon,
   MapPinIcon,
   PhoneIcon,
-  PlusIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import products from './data/products.json'
@@ -19,8 +18,6 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState('Todos')
   const [selectedSegment, setSelectedSegment] = useState('Todos')
   const [selectedProduct, setSelectedProduct] = useState(null)
-  const [isSocialMenuOpen, setIsSocialMenuOpen] = useState(false)
-
   const categories = ['Todos', ...new Set(products.map((product) => product.category))]
   const segments = ['Todos', ...new Set(products.map((product) => product.segment))]
 
@@ -43,27 +40,6 @@ function App() {
   }, [searchTerm, selectedCategory, selectedSegment])
 
   const featuredProduct = products.find((product) => product.featured) ?? products[0]
-
-  const floatingSocialLinks = [
-    {
-      label: 'WhatsApp',
-      href: 'https://wa.me/584124676968',
-      icon: PhoneIcon,
-      colorClass: 'whatsapp',
-    },
-    {
-      label: 'Instagram',
-      href: 'https://instagram.com',
-      icon: CameraIcon,
-      colorClass: 'instagram',
-    },
-    {
-      label: 'Correo',
-      href: 'mailto:hola@atelierlumiere.com',
-      icon: EnvelopeIcon,
-      colorClass: 'email',
-    },
-  ]
 
   const socialIconMap = {
     Instagram: CameraIcon,
@@ -93,6 +69,17 @@ function App() {
             </a>
           ))}
         </nav>
+
+        <a
+          className="header-cta"
+          href="https://wa.me/584124676968"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Contactar por WhatsApp"
+          title="Contactar por WhatsApp"
+        >
+          <PhoneIcon className="social-icon" aria-hidden="true" />
+        </a>
       </header>
 
       <main>
@@ -305,38 +292,6 @@ function App() {
 
       <div className="site-note">{siteContent.footer.tagline}</div>
 
-      <div className="floating-social-panel" aria-label="Redes sociales">
-        <div className={`floating-social-menu ${isSocialMenuOpen ? 'open' : ''}`}>
-          {floatingSocialLinks.map((link) => {
-            const Icon = link.icon
-
-            return (
-              <a
-                key={link.label}
-                className={`floating-social-link ${link.colorClass}`}
-                href={link.href}
-                target="_blank"
-                rel="noreferrer"
-                aria-label={link.label}
-                title={link.label}
-              >
-                <Icon className="social-icon" aria-hidden="true" />
-              </a>
-            )
-          })}
-        </div>
-
-        <button
-          type="button"
-          className="floating-social-trigger"
-          aria-label="Abrir redes sociales"
-          aria-expanded={isSocialMenuOpen}
-          onClick={() => setIsSocialMenuOpen((open) => !open)}
-        >
-          {isSocialMenuOpen ? <XMarkIcon className="social-icon" /> : <PlusIcon className="social-icon" />}
-        </button>
-      </div>
-
       {selectedProduct && (
         <div className="modal-backdrop" onClick={() => setSelectedProduct(null)}>
           <div className="product-modal" onClick={(event) => event.stopPropagation()}>
@@ -346,7 +301,7 @@ function App() {
               aria-label={siteContent.modal.closeLabel}
               onClick={() => setSelectedProduct(null)}
             >
-              ×
+              <XMarkIcon className="social-icon" aria-hidden="true" />
             </button>
 
             <div className="modal-media">
