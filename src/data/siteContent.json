@@ -1,0 +1,129 @@
+{
+  "brand": {
+    "shortName": "MINM",
+    "logo1": "/images/Logo3.png",
+    "eyebrow": "MINM",
+    "name": "Fragancias",
+    "fullName": "MINM Fragancias"
+  },
+  "navigation": [
+    {
+      "label": "Inicio",
+      "href": "#inicio"
+    },
+    {
+      "label": "Productos",
+      "href": "#productos"
+    },
+    {
+      "label": "Nosotros",
+      "href": "#nosotros"
+    },
+    {
+      "label": "Contacto",
+      "href": "#contacto"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Perfumes premium",
+    "title": "Fragancias que dejan huella.",
+    "description": "Creaciones sensoriales pensadas para acompañarte con intensidad, elegancia y un estilo inolvidable.",
+    "primaryCta": {
+      "label": "Ver colección",
+      "href": "#productos"
+    },
+    "secondaryCta": {
+      "label": "Conocer la marca",
+      "href": "#nosotros"
+    },
+    "featuredLabel": "Destacado",
+    "featured": {
+      "description": "Un aroma elegante y duradero para sentirte especial en cada momento.",
+      "priceLabel": "Desde"
+    },
+    "stats": [
+      {
+        "value": "8k+",
+        "label": "Clientes felices"
+      },
+      {
+        "value": "4.9/5",
+        "label": "Calificación"
+      },
+      {
+        "value": "100%",
+        "label": "Ingredientes elegidos"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Nuestra esencia",
+    "title": "Fragancias creadas para sentirse bien.",
+    "description": "En Atelier Lumière diseñamos perfumes con una narrativa cuidadosa: ingredientes responsables, mezclas sofisticadas y una experiencia sensorial que se vuelve parte de la rutina diaria.",
+    "secondaryDescription": "Cada fórmula combina notas elegantes y duraderas para ofrecer un aroma único, minimalista y profundamente personal.",
+    "stats": [
+      {
+        "value": "96%",
+        "label": "Ingredientes de origen sostenible"
+      },
+      {
+        "value": "12",
+        "label": "Aromas exclusivos"
+      },
+      {
+        "value": "48h",
+        "label": "Permanencia garantizada"
+      }
+    ]
+  },
+  "catalog": {
+    "eyebrow": "Colección",
+    "title": "Perfumes para cada momento",
+    "searchPlaceholder": "Buscar aroma...",
+    "searchLabel": "Buscar aromas",
+    "categoryLabel": "Filtrar por familia",
+    "allCategoriesLabel": "Todos",
+    "segmentLabel": "Filtrar por género",
+    "allSegmentsLabel": "Todos",
+    "emptyMessage": "No encontramos coincidencias para tu búsqueda.",
+    "availabilityLabel": "Disponible",
+    "detailLabel": "Ver detalle"
+  },
+  "modal": {
+    "closeLabel": "Cerrar detalle del producto",
+    "notesLabel": "Notas destacadas:",
+    "notes": "flor de rosa, sándalo, ámbar y vainilla.",
+    "durationLabel": "Duración:",
+    "duration": "8 horas con intensidad moderada.",
+    "formatLabel": "Formato:",
+    "format": "50 ml / edición limitada.",
+    "continueLabel": "Seguir explorando"
+  },
+  "footer": {
+    "description": "Perfumes premium con identidad propia, creados para despertar recuerdos inolvidables.",
+    "navigationTitle": "Navegación",
+    "socialTitle": "Social",
+    "socialLinks": [
+      {
+        "label": "Instagram",
+        "href": "https://instagram.com"
+      },
+      {
+        "label": "Pinterest",
+        "href": "https://pinterest.com"
+      },
+      {
+        "label": "WhatsApp",
+        "href": "https://wa.me/584124676968"
+      }
+    ],
+    "copyright": "© 2026 Atelier Lumière. Todos los derechos reservados.",
+    "tagline": "Diseñado para experiencias olfativas memorables."
+  },
+  "metadata": {
+    "title": "Atelier Lumière",
+    "description": "Landing page minimalista para perfumes premium.",
+    "language": "es"
+  },
+  "currency": "$"
+}

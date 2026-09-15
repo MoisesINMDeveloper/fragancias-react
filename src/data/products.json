@@ -1,0 +1,853 @@
+[
+  {
+    "id": 1,
+    "name": "Afnan 9PM rebel men",
+    "category": "Afnan",
+    "price": 39.99,
+    "description": "Un perfume floral elegante con notas de rosa, iris y vainilla, ideal para noches memorables.",
+    "imageUrl": "/images/afnan/afnan-9pm-rebel-men.webp",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 2,
+    "name": "Haramain amber oud esmerald unisex",
+    "category": "Hamarain",
+    "price": 39.99,
+    "description": "Una mezcla cálida de cedro, ámbar y pachuli que deja una firma profunda y sofisticada.",
+    "imageUrl": "/images/hamarain/al-hamarain-amber-oud-esmerald-unisex.webp",
+    "featured": true,
+    "segment": "Unisex"
+  },
+  {
+    "id": 3,
+    "name": "Hamarain amber oud blue unisex",
+    "category": "Hamarain",
+    "price": 39.99,
+    "description": "Notas vibrantes de pomelo, bergamota y neroli para un despertar luminoso y enérgico.",
+    "imageUrl": "/images/hamarain/al-hamarain-amber-oud-blue-unisex.webp",
+    "featured": true,
+    "segment": "Unisex"
+  },
+  {
+    "id": 4,
+    "name": "Orientica royal bleu unisex",
+    "category": "Orientica",
+    "price": 39.99,
+    "description": "Una composición suave y sedosa con jazmín, musk y vainilla blanca para un acabado impecable.",
+    "imageUrl": "/images/orientica/orientica-royal-bleu-unisex.jpg",
+    "featured": false,
+    "segment": "Unisex"
+  },
+  {
+    "id": 5,
+    "name": "Orientica amber noir men",
+    "category": "Orientica",
+    "price": 39.99,
+    "description": "Notas orientales cálidas con ámbar, sándalo y vainilla para un aura envolvente y persistente.",
+    "imageUrl": "/images/orientica/orientica-amber-noir-men.webp",
+    "featured": false,
+    "segment": "Masculino"
+  },
+  {
+    "id": 6,
+    "name": "Orientica Velvet Gold fem",
+    "category": "Orientica",
+    "price": 39.99,
+    "description": "Un aroma ligero y limpio con hojas verdes, agua de coco y blanco de algodón.",
+    "imageUrl": "/images/orientica/orientica-velvet-gold-fem.webp",
+    "featured": false,
+    "segment": "Femenino"
+  },
+  {
+    "id": 7,
+    "name": "Orientica oud saffron unisex",
+    "category": "Orientica",
+    "price": 39.99,
+    "description": "Una propuesta intensa con pachuli, madera de guaiac y un toque amaderado de lujo.",
+    "imageUrl": "/images/orientica/orientica-oud-saffron-unisex.webp",
+    "featured": false,
+    "segment": "Unisex"
+  },
+  {
+    "id": 8,
+    "name": "Orientica amber rouge unisex",
+    "category": "Orientica",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/orientica/orientica-amber-rouge-unisex.webp",
+    "featured": true,
+    "segment": "Unisex"
+  },
+  {
+    "id": 9,
+    "name": "Afnan 9AM fem",
+    "category": "Afnan",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/afnan/afnan-9am-fem.webp",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 10,
+    "name": "Armaf club de nuit oud unisex",
+    "category": "Armaf",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/armaf/armaf-club-de-nuit-oud-unisex.webp",
+    "featured": true,
+    "segment": "Unisex"
+  },
+  {
+    "id": 11,
+    "name": "Armaf club de nuit sillage men",
+    "category": "Armaf",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/armaf/armaf-club-de-nuit-sillage-men.webp",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 12,
+    "name": "Armaf club de nuit imperiale",
+    "category": "Armaf",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/armaf/armaf-club-de-nuit-imperiale.jpg",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 13,
+    "name": "Armaf club de nuit untold unisex",
+    "category": "Armaf",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/armaf/armaf-club-de-nuit-untold-unisex.jpg",
+    "featured": true,
+    "segment": "Unisex"
+  },
+  {
+    "id": 14,
+    "name": "Armaf club de nuit Fem",
+    "category": "Armaf",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/armaf/armaf-club-de-nuit-woman.webp",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 15,
+    "name": "Armaf club de nuit milestone unisex",
+    "category": "Armaf",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/armaf/armaf-club-de-nuit-milestone-unisex.webp",
+    "featured": true,
+    "segment": "Unisex"
+  },
+  {
+    "id": 16,
+    "name": "Armaf club de nuit urban man",
+    "category": "Armaf",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/armaf/armaf-club-de-nuit-urban-man.webp",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 17,
+    "name": "Armaf club de nuit intense man",
+    "category": "Armaf",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/armaf/armaf-club-de-nuit-intense-man.webp",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 18,
+    "name": "Bharara niche fem",
+    "category": "Bharara",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/bharara/bharara-niche-femme.jpeg",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 19,
+    "name": "Bharara queen fem",
+    "category": "Bharara",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/bharara/bharara-queen-fem.jpg",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 20,
+    "name": "Bharara rose fem",
+    "category": "Bharara",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/bharara/bharara-rose-fem.jpeg",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 21,
+    "name": "Bharara king men",
+    "category": "Bharara",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/bharara/bharara-king-men.webp",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 22,
+    "name": "Armaf odyssey candee fem",
+    "category": "Armaf",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/armaf/armaf-odyssey-candee-fem.jpg",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 23,
+    "name": "Armaf odyssey artisto unisex",
+    "category": "Armaf",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/armaf/armaf-odyssey-artisto-unisex.webp",
+    "featured": true,
+    "segment": "Unisex"
+  },
+  {
+    "id": 24,
+    "name": "Armaf odyssey spectra unisex",
+    "category": "Armaf",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/armaf/armaf-odyssey-spectra-unisex.webp",
+    "featured": true,
+    "segment": "Unisex"
+  },
+  {
+    "id": 25,
+    "name": "Lattafa badee al oud unisex",
+    "category": "Lattafa",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lattafa/lattafa-badee-al-oud-unisex.jpg",
+    "featured": true,
+    "segment": "Unisex"
+  },
+  {
+    "id": 26,
+    "name": "Lattafa oud for glory men",
+    "category": "Lattafa",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lattafa/lattafa-oud-for-glory-men.webp",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 27,
+    "name": "Lattafa honor y glory unisex",
+    "category": "Lattafa",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lattafa/lattafa-honor-y-glory-unisex.jpg",
+    "featured": true,
+    "segment": "Unisex"
+  },
+  {
+    "id": 28,
+    "name": "Orientica amber rouge unisex",
+    "category": "Orientica",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/orientica/orientica-royal-amber-unisex.webp",
+    "featured": true,
+    "segment": "Unisex"
+  },
+  {
+    "id": 29,
+    "name": "Orientica Dania fem",
+    "category": "Orientica",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/orientica/orientica-dania-fem.webp",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 30,
+    "name": "Lattafa Yara tous ",
+    "category": "Lattafa",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lattafa/lattafa-yara-tous.webp",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 31,
+    "name": "Lattafa Yara moi fem",
+    "category": "Lattafa",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lattafa/lattafa-yara-moi-fem.jpg",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 32,
+    "name": "Lattafa Asad men",
+    "category": "Lattafa",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lattafa/lattafa-asad-men.jpg",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 33,
+    "name": "Lattafa Yara fem",
+    "category": "Lattafa",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lattafa/lattafa-yara-fem.jpeg",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 34,
+    "name": "Lattafa Asad bourbon men",
+    "category": "Lattafa",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lattafa/lattafa-asad-bourbon-men.webp",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 35,
+    "name": "Lattafa Ajwad unisex",
+    "category": "Lattafa",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lattafa/lattafa-ajwad-unisex.webp",
+    "featured": true,
+    "segment": "Unisex"
+  },
+  {
+    "id": 36,
+    "name": "Hamarain amber oud ultra violet fem",
+    "category": "Hamarain",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/hamarain/hamarain-amber-oud-ultra-violet-fem.webp",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 37,
+    "name": "Lattafa Haya fem",
+    "category": "Lattafa",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lattafa/lattafa-haya-fem.webp",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 38,
+    "name": "Lattafa Eclaire fem",
+    "category": "Lattafa",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lattafa/lattafa-eclaire-fem.webp",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 39,
+    "name": "Initio Oud for Greatness men",
+    "category": "Initio",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/initio/initio-oud-for-greatness-men.webp",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 40,
+    "name": "Orientica Noble unisex",
+    "category": "Orientica",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/orientica/orientica-noble-unisex.jpg",
+    "featured": true,
+    "segment": "Unisex"
+  },
+  {
+    "id": 41,
+    "name": "Lattafa fakhar rose fem",
+    "category": "Lattafa",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lattafa/lattafa-fakhar-rose-fem.webp",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 42,
+    "name": "Lattafa Fakhar extrait men",
+    "category": "Lattafa",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lattafa/lattafa-fakhar-extrait-men.jpeg",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 43,
+    "name": "Armaf club de nuit lionheart fem",
+    "category": "Armaf",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/armaf/armaf-club-de-nuit-lionheart-fem.jpg",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 44,
+    "name": "Lattafa fakhar black men",
+    "category": "Lattafa",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lattafa/lattafa-fakhar-black-men.jpg",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 45,
+    "name": "Armaf club de nuit lionheart men",
+    "category": "Armaf",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/armaf/armaf-club-de-nuit-lionheart-men.jpg",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 46,
+    "name": "Lattafa Khamrah",
+    "category": "Lattafa",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lattafa/lattafa-khamrah.png",
+    "featured": true,
+    "segment": "Unisex"
+  },
+  {
+    "id": 47,
+    "name": "Lattafa Khamrah dukhan",
+    "category": "Lattafa",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lattafa/lattafa-khamrah-dukhan.jpg",
+    "featured": true,
+    "segment": "Unisex"
+  },
+  {
+    "id": 48,
+    "name": "Lattafa Art of universe unisex",
+    "category": "Lattafa",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lattafa/lattafa-art-of-universe-unisex.jpg",
+    "featured": true,
+    "segment": "Unisex"
+  },
+  {
+    "id": 49,
+    "name": "Armaf odyssey wild one gold edition men ",
+    "category": "Armaf",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/armaf/armaf-odyssey-wild-one-gold-edition-men.webp",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 50,
+    "name": "Armaf Odyssey mega men",
+    "category": "Armaf",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/armaf/armaf-odyssey-mega-men.jpg",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 51,
+    "name": "Armaf odyssey aoud men",
+    "category": "Armaf",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/armaf/armaf-odyssey-aoud-men.webp",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 52,
+    "name": "Armaf odyssey homme men",
+    "category": "Armaf",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/armaf/armaf-odyssey-homme-men.webp",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 53,
+    "name": "Afnan 9PM men",
+    "category": "Afnan",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/afnan/afnan-9pm-men.webp",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 55,
+    "name": "Afnan 9PM men",
+    "category": "Afnan",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/afnan/afnan-9pm-men-normal.jpg",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 56,
+    "name": "Armaf Island breeze fem",
+    "category": "Armaf",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/armaf/armaf-island-breeze-fem.webp",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 57,
+    "name": "Carolina Herrera fem",
+    "category": "Carolina Herrera",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/carolina-herrera/carolina-herrera-ch-fem.webp",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 58,
+    "name": "360 Coral",
+    "category": "Perry Ellis",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/perry-ellis/360-coral-perry-ellis.webp",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  { 
+    
+    "id": 59,
+    "name": "Couture Unisex",
+    "category": "Moschino",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/moschino/moschino-fresh-couture-unisex.webp",
+    "featured": true,
+    "segment": "Unisex"
+  },
+  {
+    "id": 60,
+    "name": "Couture Fem",
+    "category": "Moschino",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/moschino/moschino-fresh-couture-fem.webp",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 61,
+    "name": "Cloud fem",
+    "category": "Ariana Grande",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/ariana-grande/ariana-grande-cloud-fem.jpg",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 62,
+    "name": "Cloud Intense 2.0 fem",
+    "category": "Ariana Grande",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/ariana-grande/ariana-grande-cloud-intense-2-fem.jpg",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 63,
+    "name": "REM fem",
+    "category": "Ariana Grande",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/ariana-grande/ariana-grande-rem-fem.webp",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 64,
+    "name": "Sweet like candy fem",
+    "category": "Ariana Grande",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/ariana-grande/ariana-grande-sweet-like-candy.jpg",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 65,
+    "name": "Thank u next 2.0 fem",
+    "category": "Ariana Grande",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/ariana-grande/ariana-grande-thank-u-2-perfume.webp",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 66,
+    "name": "Ariana Grande thank u next fem",
+    "category": "Ariana Grande",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/ariana-grande/ariana-grande-thank-u-next-fem.png",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 67,
+    "name": "Toy Boy",
+    "category": "Moschino",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/moschino/moschino-toy-boy.png",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 68,
+    "name": "Toy 2 Pearl",
+    "category": "Moschino",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/moschino/moschino-toy-2-pearl-unisex.jpg",
+    "featured": true,
+    "segment": "Unisex"
+  },
+  {
+    "id": 69,
+    "name": "Toy 2 fem",
+    "category": "Moschino",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/moschino/moschino-toy-2-fem.webp",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 70,
+    "name": "Lacoste Eu de Lacoste L.12.12 Green Men",
+    "category": "Lacoste",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lacoste/lacoste-lacoste-verde.jpg",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 71,
+    "name": "Lacoste Eu de Lacoste L.12.12 Magnetic",
+    "category": "Lacoste",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lacoste/lacoste-lacoste-blue.webp",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 72,
+    "name": "Lacoste Eu de Lacoste L.12.12 White Men",
+    "category": "Lacoste",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/lacoste/lacoste-lacoste-white.jpg",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 73,
+    "name": "Versace Eros",
+    "category": "Versace",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/versace/versace-eros.webp",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 74,
+    "name": "Versace Eros Flame",
+    "category": "Versace",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/versace/versace-eros-flame.webp",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 75,
+    "name": "Versace Eros Energy",
+    "category": "Versace",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/versace/versace-eros-energy.jpg",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 76,
+    "name": "Good Girl Supreme",
+    "category": "Carolina Herrera",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/carolina-herrera/carolina-herrera-good-girl-supreme.webp",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 77,
+    "name": "Sorbetto Rosso",
+    "category": "Escada",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/escada/escada-sorbetto-rosso.png",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 78,
+    "name": "Good Girl Légère",
+    "category": "Carolina Herrera",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/carolina-herrera/carolina-herrera-good-girl-legere.jpg",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 79,
+    "name": "Paris Hilton Clasica",
+    "category": "Paris Hilton",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/paris-hilton/paris-hilton-clasica.jpg",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 80,
+    "name": "Paris Hilton Can Can",
+    "category": "Paris Hilton",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/paris-hilton/paris-hilton-can-can.jpg",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 81,
+    "name": "Ralph Love",
+    "category": "Ralph Lauren",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/ralph-lauren/ralph-lauren-love.webp",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 82,
+    "name": "Katy Perry Purr",
+    "category": "Katy Perry",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/katy-perry/katy-perry-purr.webp",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 83,
+    "name": "Katy Perry Meow",
+    "category": "Katy Perry",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/katy-perry/katy-perry-meow.jpg",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 84,
+    "name": "Paris Hilton Dazzle",
+    "category": "Paris Hilton",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/paris-hilton/paris-hilton-dazzle.webp",
+    "featured": true,
+    "segment": "Femenino"
+  },
+  {
+    "id": 85,
+    "name": "CH Bad Boy",
+    "category": "Carolina Herrera",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/carolina-herrera/carolina-herrera-bad-boy.webp",
+    "featured": true,
+    "segment": "Masculino"
+  },
+  {
+    "id": 86,
+    "name": "1 Million Elixir",
+    "category": "Paco Rabanne",
+    "price": 39.99,
+    "description": "Una mezcla delicada de pera, flor de azahar y rosa de té para una presencia refinada.",
+    "imageUrl": "/images/paco-rabanne/paco-rabanne-1million-elixir.jpg",
+    "featured": true,
+    "segment": "Masculino"
+  }
+]
