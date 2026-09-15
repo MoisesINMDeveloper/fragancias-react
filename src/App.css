@@ -23,6 +23,7 @@
   background: rgba(250, 248, 244, 0.88);
   backdrop-filter: blur(14px);
   box-shadow: 0 12px 40px rgba(60, 39, 16, 0.06);
+  transition: transform 0.28s ease, opacity 0.28s ease;
 }
 
 .brand-wrap {
@@ -723,6 +724,12 @@
   .topbar {
     flex-direction: column;
     padding: 18px 16px;
+  }
+
+  .topbar.mobile-hidden {
+    transform: translateY(calc(-100% - 28px));
+    opacity: 0;
+    pointer-events: none;
   }
 
   .main-nav {

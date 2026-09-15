@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import {
   CameraIcon,
   EnvelopeIcon,
@@ -18,8 +18,38 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState('Todos')
   const [selectedSegment, setSelectedSegment] = useState('Todos')
   const [selectedProduct, setSelectedProduct] = useState(null)
+  const [isMobileHeaderHidden, setIsMobileHeaderHidden] = useState(false)
   const categories = ['Todos', ...new Set(products.map((product) => product.category))]
   const segments = ['Todos', ...new Set(products.map((product) => product.segment))]
+
+  useEffect(() => {
+    let previousScrollY = window.scrollY
+
+    const handleScroll = () => {
+      if (window.innerWidth > 640) {
+        setIsMobileHeaderHidden(false)
+        return
+      }
+
+      const currentScrollY = window.scrollY
+
+      if (currentScrollY <= 12 || currentScrollY < previousScrollY) {
+        setIsMobileHeaderHidden(false)
+      } else if (currentScrollY > previousScrollY) {
+        setIsMobileHeaderHidden(true)
+      }
+
+      previousScrollY = currentScrollY
+    }
+
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    window.addEventListener('resize', handleScroll)
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+      window.removeEventListener('resize', handleScroll)
+    }
+  }, [])
 
   const filteredProducts = useMemo(() => {
     const normalizedSearch = searchTerm.trim().toLowerCase()
@@ -49,7 +79,7 @@ function App() {
 
   return (
     <div className="page-shell">
-      <header className="topbar">
+      <header className={`topbar ${isMobileHeaderHidden ? 'mobile-hidden' : ''}`}>
         <div className="brand-wrap" aria-label={siteContent.brand.name}>
           <img
             src={siteContent.brand.logo1}
