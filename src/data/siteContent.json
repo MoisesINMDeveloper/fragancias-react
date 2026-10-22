@@ -59,8 +59,8 @@
   "about": {
     "eyebrow": "Nuestra esencia",
     "title": "Fragancias creadas para sentirse bien.",
-    "description": "En Atelier Lumière diseñamos perfumes con una narrativa cuidadosa: ingredientes responsables, mezclas sofisticadas y una experiencia sensorial que se vuelve parte de la rutina diaria.",
-    "secondaryDescription": "Cada fórmula combina notas elegantes y duraderas para ofrecer un aroma único, minimalista y profundamente personal.",
+    "description": "En MINM Fragancias seleccionamos perfumes con una mirada exigente: ingredientes memorables, mezclas sofisticadas y una experiencia sensorial que acompaña tu identidad en cada momento.",
+    "secondaryDescription": "Nuestra colección reúne 12 aromas con carácter propio, elegidos por su equilibrio entre presencia, elegancia y una estela que permanece contigo.",
     "stats": [
       {
         "value": "96%",
@@ -68,10 +68,10 @@
       },
       {
         "value": "12",
-        "label": "Aromas exclusivos"
+        "label": "Aromas de autor"
       },
       {
-        "value": "48h",
+        "value": "8h+",
         "label": "Permanencia garantizada"
       }
     ]
@@ -117,12 +117,12 @@
         "href": "https://wa.me/584124676968"
       }
     ],
-    "copyright": "© 2026 Atelier Lumière. Todos los derechos reservados.",
+    "copyright": "© 2026 MINM Fragancias. Todos los derechos reservados.",
     "tagline": "Diseñado para experiencias olfativas memorables."
   },
   "metadata": {
-    "title": "Atelier Lumière",
-    "description": "Landing page minimalista para perfumes premium.",
+    "title": "MINM Fragancias",
+    "description": "Colección de perfumes premium con identidad propia.",
     "language": "es"
   },
   "currency": "$"

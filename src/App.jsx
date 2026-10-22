@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import {
   CameraIcon,
-  EnvelopeIcon,
   LinkIcon,
   MapPinIcon,
   PhoneIcon,
@@ -12,6 +11,16 @@ import siteContent from './data/siteContent.json'
 import './App.css'
 
 const currency = siteContent.currency || '$'
+
+const fallbackDetails = {
+  notes: ['acordes luminosos', 'maderas suaves', 'almizcle blanco'],
+  duration: '6 a 8 horas con intensidad equilibrada',
+  volume: '100 ml / aroma de autor',
+}
+
+function getProductDetails(product) {
+  return product.details || fallbackDetails
+}
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('')
@@ -251,6 +260,12 @@ function App() {
                     </div>
                     <h3>{product.name}</h3>
                     <p>{product.description}</p>
+                    <div className="product-detail-preview">
+                      <span>Notas destacadas</span>
+                      <strong>{getProductDetails(product).notes.join(' · ')}</strong>
+                      <span>Duración</span>
+                      <strong>{getProductDetails(product).duration}</strong>
+                    </div>
                     <div className="product-footer">
                       <strong>
                         {currency}
@@ -351,19 +366,19 @@ function App() {
                 <div>
                   <span>{siteContent.modal.notesLabel}</span>
                   <strong>
-                    {selectedProduct.details?.notes?.join(', ') || siteContent.modal.notes}
+                    {getProductDetails(selectedProduct).notes.join(', ')}
                   </strong>
                 </div>
                 <div>
                   <span>{siteContent.modal.durationLabel}</span>
                   <strong>
-                    {selectedProduct.details?.duration || siteContent.modal.duration}
+                    {getProductDetails(selectedProduct).duration}
                   </strong>
                 </div>
                 <div>
                   <span>{siteContent.modal.formatLabel}</span>
                   <strong>
-                    {selectedProduct.details?.volume || siteContent.modal.format}
+                    {getProductDetails(selectedProduct).volume}
                   </strong>
                 </div>
               </div>

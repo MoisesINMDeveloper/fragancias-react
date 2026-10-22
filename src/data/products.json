@@ -7,7 +7,12 @@
     "description": "Una fragancia audaz y afrutada con toques de manzana crujiente, vainilla dulce y maderas ahumadas, perfecta para destacar en la noche.",
     "imageUrl": "/fragancias-react/afnan_afnan-9pm-rebel-men.webp",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["manzana crujiente", "vainilla", "maderas ahumadas"],
+      "duration": "8 a 10 horas con estela cálida",
+      "volume": "100 ml / aroma de autor"
+    }
   },
   {
     "id": 2,
@@ -17,7 +22,12 @@
     "description": "Un aroma verde, fresco y aromático. Combina notas cítricas vibrantes con un fondo amaderado y herbal muy elegante.",
     "imageUrl": "/fragancias-react/hamarain_al-hamarain-amber-oud-esmerald-unisex.webp",
     "featured": true,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["cítricos verdes", "ámbar oud", "hierbas aromáticas"],
+      "duration": "7 a 9 horas con presencia elegante",
+      "volume": "100 ml / aroma de autor"
+    }
   },
   {
     "id": 3,
@@ -27,7 +37,12 @@
     "description": "Vibrante y acuática. Una explosión de pomelo, menta y pimienta rosa sobre un sofisticado fondo de madera de cedro y vetiver.",
     "imageUrl": "/fragancias-react/hamarain_al-hamarain-amber-oud-blue-unisex.webp",
     "featured": true,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["pomelo", "menta", "cedro y vetiver"],
+      "duration": "7 a 9 horas con salida fresca",
+      "volume": "100 ml / aroma de autor"
+    }
   },
   {
     "id": 4,
@@ -37,7 +52,12 @@
     "description": "Fresca, especiada y elegante. Destaca por sus acordes de manzana verde, lavanda, mandarina y un toque cálido de maderas y vainilla.",
     "imageUrl": "/fragancias-react/orientica_orientica-royal-bleu-unisex.jpg",
     "featured": false,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["manzana verde", "lavanda", "vainilla y maderas"],
+      "duration": "6 a 8 horas con fondo especiado",
+      "volume": "100 ml / aroma de autor"
+    }
   },
   {
     "id": 5,
@@ -47,7 +67,12 @@
     "description": "Misteriosa y profunda. Resalta por sus intrigantes acordes de higo, zanahoria, maderas oscuras y un envolvente almizcle.",
     "imageUrl": "/fragancias-react/orientica_orientica-amber-noir-men.webp",
     "featured": false,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["higo", "maderas oscuras", "almizcle"],
+      "duration": "8 a 10 horas con acabado profundo",
+      "volume": "100 ml / aroma de autor"
+    }
   },
   {
     "id": 6,
@@ -57,7 +82,12 @@
     "description": "Lujosa y seductora. Una mezcla floral irresistible con notas de caramelo, rosa, pimienta rosa y un fondo ligeramente atalcado.",
     "imageUrl": "/fragancias-react/orientica_orientica-velvet-gold-fem.webp",
     "featured": false,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["caramelo", "rosa", "pimienta rosa"],
+      "duration": "7 a 9 horas con velo floral",
+      "volume": "100 ml / aroma de autor"
+    }
   },
   {
     "id": 7,
@@ -67,7 +97,12 @@
     "description": "Intensa y oriental. Dominada por la calidez del azafrán, la dulzura de la vainilla y un oud suave, refinado y nada abrumador.",
     "imageUrl": "/fragancias-react/orientica_orientica-oud-saffron-unisex.webp",
     "featured": false,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["azafrán", "vainilla", "oud refinado"],
+      "duration": "9 a 11 horas con estela envolvente",
+      "volume": "100 ml / aroma de autor"
+    }
   },
   {
     "id": 8,
@@ -77,7 +112,12 @@
     "description": "Cálida y ambarina. Famosa por su exquisito aire a jazmín, azafrán, ámbar gris y madera de cedro, dejando una estela dulce e inolvidable.",
     "imageUrl": "/fragancias-react/orientica_orientica-amber-rouge-unisex.webp",
     "featured": true,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["jazmín", "azafrán", "ámbar gris y cedro"],
+      "duration": "9 a 11 horas con estela ambarina",
+      "volume": "100 ml / aroma de autor"
+    }
   },
   {
     "id": 9,
@@ -87,7 +127,12 @@
     "description": "Fresca, limpia y luminosa. Ideal para el día a día con sus notas chispeantes de mandarina, manzana verde y flores blancas.",
     "imageUrl": "/fragancias-react/afnan_afnan-9am-fem.webp",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["mandarina", "manzana verde", "flores blancas"],
+      "duration": "6 a 8 horas con frescura luminosa",
+      "volume": "100 ml / aroma de autor"
+    }
   },
   {
     "id": 10,
@@ -97,7 +142,12 @@
     "description": "Exótica y afrutada. Sorprende al mezclar maracuyá, durazno y pera con un fondo de madera de oud y vainilla dulce.",
     "imageUrl": "/fragancias-react/armaf_armaf-club-de-nuit-oud-unisex.webp",
     "featured": true,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["maracuyá", "durazno", "oud y vainilla"],
+      "duration": "8 a 10 horas con dulzor persistente",
+      "volume": "100 ml / aroma de autor"
+    }
   },
   {
     "id": 11,
@@ -107,7 +157,12 @@
     "description": "Metálica, cítrica y fresca. Combina grosellas negras, rosa, bergamota y un fondo almizclado sumamente pulcro y elegante.",
     "imageUrl": "/fragancias-react/armaf_armaf-club-de-nuit-sillage-men.webp",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["grosella negra", "rosa", "bergamota y almizcle"],
+      "duration": "7 a 9 horas con acabado pulcro",
+      "volume": "100 ml / aroma de autor"
+    }
   },
   {
     "id": 12,
@@ -117,7 +172,12 @@
     "description": "Floral y cremosa. Protagonizada por la rosa turca, el lichi jugoso, la peonía y una base de vainilla cautivadora.",
     "imageUrl": "/fragancias-react/armaf_armaf-club-de-nuit-imperiale.jpg",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["rosa turca", "lichi", "peonía y vainilla"],
+      "duration": "8 a 10 horas con corazón floral",
+      "volume": "100 ml / aroma de autor"
+    }
   },
   {
     "id": 13,
@@ -127,47 +187,72 @@
     "description": "Dulce y envolvente. Una bomba de cumplidos con notas de azafrán, jazmín, resina de abeto y ámbar gris espectacular.",
     "imageUrl": "/fragancias-react/armaf_armaf-club-de-nuit-untold-unisex.jpg",
     "featured": true,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["azafrán", "jazmín", "resina de abeto y ámbar gris"],
+      "duration": "9 a 11 horas con estela envolvente",
+      "volume": "100 ml / aroma de autor"
+    }
   },
   {
     "id": 14,
-    "name": "Armaf club de nuit Fem",
+    "name": "Armaf Club de Nuit Woman",
     "category": "Armaf",
     "price": 44.99,
     "description": "Sofisticada y romántica. Un clásico moderno con rosa, pachulí, cítricos brillantes y toques de melocotón.",
     "imageUrl": "/fragancias-react/armaf_armaf-club-de-nuit-woman.webp",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["cítricos brillantes", "rosa", "melocotón", "pachulí", "vainilla"],
+      "duration": "8 a 10 horas con estela elegante",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 15,
-    "name": "Armaf club de nuit milestone unisex",
+    "name": "Armaf Club de Nuit Milestone Unisex",
     "category": "Armaf",
     "price": 44.99,
     "description": "Acuática y frutal. Evoca la brisa del mar con notas de melón fresco, frutos rojos, sal marina y maderas claras.",
     "imageUrl": "/fragancias-react/armaf_armaf-club-de-nuit-milestone-unisex.webp",
     "featured": true,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["sal marina", "frutos rojos", "bergamota", "maderas blancas", "almizcle"],
+      "duration": "7 a 9 horas con estela fresca",
+      "volume": "105 ml / Eau de Parfum"
+    }
   },
   {
     "id": 16,
-    "name": "Armaf club de nuit urban man",
+    "name": "Armaf Club de Nuit Urban Man",
     "category": "Armaf",
     "price": 44.99,
     "description": "Versátil y moderna. Una rica mezcla especiada de pomelo, bergamota, pachulí y un fondo amaderado muy varonil.",
     "imageUrl": "/fragancias-react/armaf_armaf-club-de-nuit-urban-man.webp",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["pomelo", "bergamota", "jengibre", "pachulí", "vetiver"],
+      "duration": "7 a 9 horas con estela moderada",
+      "volume": "105 ml / Eau de Parfum"
+    }
   },
   {
     "id": 17,
-    "name": "Armaf club de nuit intense man",
+    "name": "Armaf Club de Nuit Intense Man",
     "category": "Armaf",
     "price": 44.99,
     "description": "Poderosa y ahumada. Abre con un golpe cítrico de limón y piña, dando paso a un corazón de abedul y ámbar gris que proyecta pura seguridad.",
     "imageUrl": "/fragancias-react/armaf_armaf-club-de-nuit-intense-man.webp",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["limón", "piña", "abedul ahumado", "ámbar gris", "almizcle"],
+      "duration": "9 a 12 horas con estela pesada",
+      "volume": "105 ml / Eau de Toilette"
+    }
   },
   {
     "id": 18,
@@ -177,7 +262,12 @@
     "description": "Exquisita y floral. Combina cítricos jugosos en la salida con un corazón maduro de jazmín y rosa sobre un fondo dulce.",
     "imageUrl": "/fragancias-react/bharara_bharara-niche-femme.jpeg",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["cítricos", "jazmín", "rosa", "fondo dulce"],
+      "duration": "8 a 10 horas con estela floral",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 19,
@@ -187,7 +277,12 @@
     "description": "Un tributo a la feminidad. Notas afrutadas de salida, caramelo derretido y un corazón floral embriagador y duradero.",
     "imageUrl": "/fragancias-react/bharara_bharara-queen-fem.jpg",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["frutas", "caramelo", "flores blancas"],
+      "duration": "8 a 10 horas con estela dulce",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 20,
@@ -197,7 +292,12 @@
     "description": "Romántica y atalcada. Una explosión de rosas frescas combinadas con un almizcle suave y toques de vainilla seductora.",
     "imageUrl": "/fragancias-react/bharara_bharara-rose-fem.jpeg",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["rosas", "almizcle", "vainilla"],
+      "duration": "7 a 9 horas con estela suave",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 21,
@@ -207,7 +307,12 @@
     "description": "Cítrica, dulce y amaderada. Una fragancia de enorme potencia con naranja dulce, bergamota, vainilla y almizcle blanco.",
     "imageUrl": "/fragancias-react/bharara_bharara-king-men.webp",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["naranja dulce", "bergamota", "vainilla", "almizcle blanco"],
+      "duration": "10 a 12 horas con alta proyección",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 22,
@@ -217,7 +322,12 @@
     "description": "Golosa y divertida. Un cóctel azucarado lleno de notas de caramelo, frutas tropicales y un suave y femenino toque floral.",
     "imageUrl": "/fragancias-react/armaf_armaf-odyssey-candee-fem.jpg",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["caramelo", "frutas tropicales", "notas florales"],
+      "duration": "7 a 9 horas con estela golosa",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 23,
@@ -227,7 +337,12 @@
     "description": "Elegante y especiada. Logra un equilibrio perfecto entre maderas ricas, toques de pimienta y acordes ambarinos profundos.",
     "imageUrl": "/fragancias-react/armaf_armaf-odyssey-artisto-unisex.webp",
     "featured": true,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["maderas", "pimienta", "ámbar"],
+      "duration": "8 a 10 horas con estela sofisticada",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 24,
@@ -237,7 +352,12 @@
     "description": "Misteriosa y envolvente. Destaca por sus exóticas notas orientales, especias cálidas y un fondo de maderas dulces.",
     "imageUrl": "/fragancias-react/armaf_armaf-odyssey-spectra-unisex.webp",
     "featured": true,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["notas orientales", "especias cálidas", "maderas dulces"],
+      "duration": "8 a 10 horas con estela envolvente",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 25,
@@ -247,7 +367,12 @@
     "description": "Intensa y mística. Una poderosa combinación de oud oscuro, azafrán, lavanda fresca y nuez moscada.",
     "imageUrl": "/fragancias-react/lattafa_lattafa-badee-al-oud-unisex.jpg",
     "featured": true,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["oud oscuro", "azafrán", "lavanda", "nuez moscada"],
+      "duration": "9 a 11 horas con estela intensa",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 26,
@@ -257,7 +382,12 @@
     "description": "Amaderada y majestuosa. Una mezcla imponente de madera de oud, lavanda y pachulí que proyecta poder y elegancia.",
     "imageUrl": "/fragancias-react/lattafa_lattafa-oud-for-glory-men.webp",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["madera de oud", "lavanda", "pachulí"],
+      "duration": "10 a 12 horas con alta proyección",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 27,
@@ -267,7 +397,12 @@
     "description": "Cremosa, frutal y única. Destaca por su deliciosa y adictiva nota de piña brûlée, toques de cúrcuma y rica vainilla.",
     "imageUrl": "/fragancias-react/lattafa_lattafa-honor-y-glory-unisex.jpg",
     "featured": true,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["piña brûlée", "cúrcuma", "vainilla"],
+      "duration": "8 a 10 horas con estela cremosa",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 28,
@@ -277,7 +412,12 @@
     "description": "Seductora y magnética. Mezcla azafrán ardiente, flores blancas y madera de cedro en una fragancia lujosa y dulce.",
     "imageUrl": "/fragancias-react/orientica_orientica-royal-amber-unisex.webp",
     "featured": true,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["azafrán", "flores blancas", "madera de cedro"],
+      "duration": "9 a 11 horas con estela magnética",
+      "volume": "100 ml / Extrait de Parfum"
+    }
   },
   {
     "id": 29,
@@ -287,7 +427,12 @@
     "description": "Femenina y vibrante. Resalta con toques frutales jugosos, un bouquet de flores exóticas y una suave base almizclada.",
     "imageUrl": "/fragancias-react/orientica_orientica-dania-fem.webp",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["frutas jugosas", "flores exóticas", "almizcle"],
+      "duration": "8 a 10 horas con estela vibrante",
+      "volume": "80 ml / Extrait de Parfum"
+    }
   },
   {
     "id": 30,
@@ -297,7 +442,12 @@
     "description": "Tropical y veraniega. Una explosión frutal con acordes de mango dulce, coco, maracuyá y un reconfortante fondo avainillado.",
     "imageUrl": "/fragancias-react/lattafa_lattafa-yara-tous.webp",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["mango", "coco", "maracuyá", "vainilla"],
+      "duration": "7 a 9 horas con estela tropical",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 31,
@@ -307,7 +457,12 @@
     "description": "Dulce y acaramelada. Combina melocotón jugoso, flores de jazmín, caramelo derretido y sándalo para un aura muy cálida.",
     "imageUrl": "/fragancias-react/lattafa_lattafa-yara-moi-fem.jpg",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["melocotón", "jazmín", "caramelo", "sándalo"],
+      "duration": "7 a 9 horas con estela cálida",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 32,
@@ -317,7 +472,12 @@
     "description": "Especiada, cálida y madura. Resalta por sus notas masculinas de pimienta negra, café, tabaco rubio y maderas secas.",
     "imageUrl": "/fragancias-react/lattafa_lattafa-asad-men.jpg",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["pimienta negra", "café", "tabaco rubio", "maderas secas"],
+      "duration": "8 a 10 horas con estela especiada",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 33,
@@ -327,7 +487,12 @@
     "description": "Cremosa y puramente gourmand. Una nube esponjosa de orquídea, frutas tropicales dulces y vainilla que recuerda a un batido de fresa.",
     "imageUrl": "/fragancias-react/lattafa_lattafa-yara-fem.jpeg",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["orquídea", "frutas tropicales", "vainilla cremosa"],
+      "duration": "6 a 8 horas con estela dulce",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 34,
@@ -337,7 +502,12 @@
     "description": "Variante profunda y licorosa de Asad. Combina maderas ahumadas, vainilla rica y un sofisticado toque de bourbon.",
     "imageUrl": "/fragancias-react/lattafa_lattafa-asad-bourbon-men.webp",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["maderas ahumadas", "vainilla", "bourbon"],
+      "duration": "9 a 11 horas con estela licorosa",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 35,
@@ -347,7 +517,12 @@
     "description": "Dulce, frutal y metálica. Ofrece notas de flores voluptuosas, frutas almibaradas, madera de cedro y una vainilla de larguísima duración.",
     "imageUrl": "/fragancias-react/lattafa_lattafa-ajwad-unisex.webp",
     "featured": true,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["flores voluptuosas", "frutas almibaradas", "madera de cedro", "vainilla"],
+      "duration": "9 a 12 horas con estela duradera",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 36,
@@ -357,7 +532,12 @@
     "description": "Floral y misteriosa. Destaca por sus notas empolvadas de violeta, rosa fresca, maderas suaves y un fondo limpio almizclado.",
     "imageUrl": "/fragancias-react/hamarain_hamarain-amber-oud-ultra-violet-fem.webp",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["violeta", "rosa fresca", "maderas suaves", "almizcle"],
+      "duration": "7 a 9 horas con estela empolvada",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 37,
@@ -367,7 +547,12 @@
     "description": "Chispeante y romántica. Una fragancia alegre con notas de fresa, rosa delicada, champán y cítricos jugosos.",
     "imageUrl": "/fragancias-react/lattafa_lattafa-haya-fem.webp",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["fresa", "rosa", "champán", "cítricos"],
+      "duration": "6 a 8 horas con estela chispeante",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 38,
@@ -377,7 +562,12 @@
     "description": "Extremadamente gourmand. Huele a praliné, caramelo, leche tibia y vainilla, como un postre dulce y decadente.",
     "imageUrl": "/fragancias-react/lattafa_lattafa-eclaire-fem.webp",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["praliné", "caramelo", "leche tibia", "vainilla"],
+      "duration": "8 a 10 horas con estela gourmand",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 39,
@@ -387,7 +577,12 @@
     "description": "Una obra maestra nicho. Mezcla oud natural exquisito, lavanda fresca y azafrán especiado en una fragancia oscura y opulenta.",
     "imageUrl": "/fragancias-react/initio_initio-oud-for-greatness-men.webp",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["oud natural", "lavanda fresca", "azafrán especiado"],
+      "duration": "10 a 14 horas con estela imponente",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 40,
@@ -397,7 +592,12 @@
     "description": "Elegante y sumamente limpia. Combina notas cítricas crujientes, maderas blancas ligeras y un almizcle transparente.",
     "imageUrl": "/fragancias-react/orientica_orientica-noble-unisex.jpg",
     "featured": true,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["cítricos crujientes", "maderas blancas", "almizcle"],
+      "duration": "7 a 9 horas con estela limpia",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 41,
@@ -407,7 +607,12 @@
     "description": "Floral blanca y cremosa. Una composición muy femenina de nardos, flor de azahar, jazmín, peonía y una base dulce avainillada.",
     "imageUrl": "/fragancias-react/lattafa_lattafa-fakhar-rose-fem.webp",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["nardos", "flor de azahar", "jazmín", "peonía", "vainilla"],
+      "duration": "7 a 9 horas con estela floral",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 42,
@@ -417,7 +622,12 @@
     "description": "Fresca, aromática y amaderada. Abre con manzana verde y lavanda, secando en una mezcla madura de haba tonka y vetiver.",
     "imageUrl": "/fragancias-react/lattafa_lattafa-fakhar-extrait-men.jpeg",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["manzana verde", "lavanda", "haba tonka", "vetiver"],
+      "duration": "8 a 10 horas con estela aromática",
+      "volume": "100 ml / Extrait de Parfum"
+    }
   },
   {
     "id": 43,
@@ -427,7 +637,12 @@
     "description": "Atrevida y pasional. Ofrece acordes florales opulentos, especias suaves y un fondo cálido que no pasa desapercibido.",
     "imageUrl": "/fragancias-react/armaf_armaf-club-de-nuit-lionheart-fem.jpg",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["acordes florales", "especias suaves", "fondo cálido"],
+      "duration": "8 a 10 horas con estela pasional",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 44,
@@ -437,7 +652,12 @@
     "description": "Refrescante y especiada. Destaca por su versatilidad, combinando manzana, bergamota, lavanda clásica y suaves toques de cedro.",
     "imageUrl": "/fragancias-react/lattafa_lattafa-fakhar-black-men.jpg",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["manzana", "bergamota", "lavanda", "cedro"],
+      "duration": "7 a 9 horas con estela versátil",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 45,
@@ -447,7 +667,12 @@
     "description": "Potente y profundamente varonil. Mezcla cítricos vibrantes en su salida con maderas robustas y especias oscuras en el fondo.",
     "imageUrl": "/fragancias-react/armaf_armaf-club-de-nuit-lionheart-men.jpg",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["cítricos vibrantes", "maderas robustas", "especias oscuras"],
+      "duration": "8 a 10 horas con estela varonil",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 46,
@@ -457,7 +682,12 @@
     "description": "Un licor dulce y especiado. Dátiles jugosos, praliné, canela y vainilla convergen en una fragancia puramente gourmand y navideña.",
     "imageUrl": "/fragancias-react/lattafa_lattafa-khamrah.png",
     "featured": true,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["dátiles", "praliné", "canela", "vainilla"],
+      "duration": "10 a 12 horas con estela gourmand",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 47,
@@ -467,7 +697,12 @@
     "description": "Versión más oscura y ahumada de Khamrah. Añade notas de incienso y maderas resinosas al dulzor adictivo del original.",
     "imageUrl": "/fragancias-react/lattafa_lattafa-khamrah-dukhan.jpg",
     "featured": true,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["incienso", "maderas resinosas", "praliné", "vainilla"],
+      "duration": "10 a 12 horas con estela ahumada",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 48,
@@ -477,7 +712,12 @@
     "description": "Exótica y rica. Construida alrededor de resinas profundas, maderas preciosas y un fondo de ámbar dulce y especiado.",
     "imageUrl": "/fragancias-react/lattafa_lattafa-art-of-universe-unisex.jpg",
     "featured": true,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["resinas profundas", "maderas preciosas", "ámbar dulce"],
+      "duration": "9 a 11 horas con estela rica",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 49,
@@ -487,7 +727,12 @@
     "description": "Amaderada, ambarina y recia. Inicia con cítricos vigorizantes que se asientan sobre vetiver terroso, pimienta y cuero fino.",
     "imageUrl": "/fragancias-react/armaf_armaf-odyssey-wild-one-gold-edition-men.webp",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["cítricos", "vetiver terroso", "pimienta", "cuero fino"],
+      "duration": "8 a 10 horas con estela recia",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 50,
@@ -497,7 +742,12 @@
     "description": "Cítrica, aromática y brillante. Una mezcla sumamente fresca de naranja, bergamota, jengibre picante y maderas claras.",
     "imageUrl": "/fragancias-react/armaf_armaf-odyssey-mega-men.jpg",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["naranja", "bergamota", "jengibre picante", "maderas claras"],
+      "duration": "7 a 9 horas con estela fresca",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 51,
@@ -507,7 +757,12 @@
     "description": "Rica y amaderada. Un oud domado y muy llevadero, envuelto en especias dulces, maderas robustas y un toque de vainilla.",
     "imageUrl": "/fragancias-react/armaf_armaf-odyssey-aoud-men.webp",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["oud domado", "especias dulces", "maderas robustas", "vainilla"],
+      "duration": "8 a 10 horas con estela amaderada",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 52,
@@ -517,7 +772,12 @@
     "description": "Elegante y atalcada. Resalta por su nota predominante de iris, acompañada de vainilla cremosa y un cuero muy sutil e invernal.",
     "imageUrl": "/fragancias-react/armaf_armaf-odyssey-homme-men.webp",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["iris", "vainilla cremosa", "cuero sutil"],
+      "duration": "8 a 10 horas con estela elegante",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 53,
@@ -527,7 +787,12 @@
     "description": "Dulce, nocturna y fiestera. Destaca por su salida de manzana y canela, secando en una vainilla potente, cremosa y muy seductora.",
     "imageUrl": "/fragancias-react/afnan_afnan-9pm-men.webp",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["manzana", "canela", "vainilla potente"],
+      "duration": "8 a 10 horas con alta proyección",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 55,
@@ -537,7 +802,12 @@
     "description": "Dulce, nocturna y fiestera. Destaca por su salida de manzana y canela, secando en una vainilla potente, cremosa y muy seductora.",
     "imageUrl": "/fragancias-react/afnan_afnan-9pm-men-normal.jpg",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["manzana", "canela", "vainilla potente"],
+      "duration": "8 a 10 horas con alta proyección",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 56,
@@ -547,7 +817,12 @@
     "description": "Refrescante y netamente tropical. Te transporta a la playa con sus notas de agua de coco, cítricos jugosos y flores exóticas.",
     "imageUrl": "/fragancias-react/armaf_armaf-island-breeze-fem.webp",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["agua de coco", "cítricos jugosos", "flores exóticas"],
+      "duration": "6 a 8 horas con estela tropical",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 57,
@@ -557,7 +832,12 @@
     "description": "Clásica, madura y sofisticada. Combina notas florales exuberantes de jazmín y nardos con un fondo cálido de sándalo y ámbar.",
     "imageUrl": "/fragancias-react/carolina-herrera_carolina-herrera-ch-fem.webp",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["jazmín", "nardos", "sándalo", "ámbar"],
+      "duration": "7 a 9 horas con estela clásica",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 58,
@@ -567,7 +847,12 @@
     "description": "Alegre y coqueta. Una fragancia frutal y floral con durazno dulce, bergamota fresca, peonía rosa y un almizcle delicado.",
     "imageUrl": "/fragancias-react/perry-ellis_360-coral-perry-ellis.webp",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["durazno dulce", "bergamota fresca", "peonía rosa", "almizcle"],
+      "duration": "6 a 8 horas con estela coqueta",
+      "volume": "100 ml / Eau de Toilette"
+    }
   },
   {
     "id": 59,
@@ -577,7 +862,12 @@
     "description": "Cítrica, irónica y muy fresca. Una explosión limpia de mandarina, ylang-ylang, frambuesa jugosa y maderas claras.",
     "imageUrl": "/fragancias-react/moschino_moschino-fresh-couture-unisex.webp",
     "featured": true,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["mandarina", "ylang-ylang", "frambuesa", "maderas claras"],
+      "duration": "6 a 8 horas con estela fresca",
+      "volume": "100 ml / Eau de Toilette"
+    }
   },
   {
     "id": 60,
@@ -587,7 +877,12 @@
     "description": "Vibrante, juguetona y floral. Combina peonía romántica, cítricos chispeantes y toques amaderados que huelen a limpio.",
     "imageUrl": "/fragancias-react/moschino_moschino-fresh-couture-fem.webp",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["peonía", "cítricos chispeantes", "toques amaderados"],
+      "duration": "6 a 8 horas con estela vibrante",
+      "volume": "100 ml / Eau de Toilette"
+    }
   },
   {
     "id": 61,
@@ -597,7 +892,12 @@
     "description": "Cremosa, dulce y etérea. Un aroma reconfortante a crema batida, praliné crujiente, lavanda suave y un toque de coco.",
     "imageUrl": "/fragancias-react/ariana-grande_ariana-grande-cloud-fem.jpg",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["crema batida", "praliné", "lavanda", "coco"],
+      "duration": "6 a 8 horas con estela cremosa",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 62,
@@ -607,7 +907,12 @@
     "description": "Una versión más profunda y amaderada del clásico Cloud. Mantiene la dulzura del praliné pero aumenta la calidez del ambroxan.",
     "imageUrl": "/fragancias-react/ariana-grande_ariana-grande-cloud-intense-2-fem.jpg",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["praliné", "ambroxan", "maderas suaves"],
+      "duration": "7 a 9 horas con estela profunda",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 63,
@@ -617,7 +922,12 @@
     "description": "Dulce, salada y relajante. Destaca por su inusual y encantadora mezcla de caramelo salado, higo jugoso y lavanda apacible.",
     "imageUrl": "/fragancias-react/ariana-grande_ariana-grande-rem-fem.webp",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["caramelo salado", "higo", "lavanda"],
+      "duration": "6 a 8 horas con estela relajante",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 64,
@@ -627,7 +937,12 @@
     "description": "Golosa, afrutada y juvenil. Una explosión de zarzamora azucarada, crema batida, malvaviscos y rica vainilla.",
     "imageUrl": "/fragancias-react/ariana-grande_ariana-grande-sweet-like-candy.jpg",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["zarzamora", "crema batida", "malvavisco", "vainilla"],
+      "duration": "6 a 8 horas con estela golosa",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 65,
@@ -637,7 +952,12 @@
     "description": "Fresca, jugosa y coqueta. Abre con fresa salvaje y jugo de manzana, asentándose en un fondo suave de malvavisco.",
     "imageUrl": "/fragancias-react/ariana-grande_ariana-grande-thank-u-2-perfume.webp",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["fresa salvaje", "jugo de manzana", "malvavisco"],
+      "duration": "6 a 8 horas con estela coqueta",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 66,
@@ -647,7 +967,12 @@
     "description": "Dulce y deliciosamente tropical. Protagonizada por notas de coco cremoso, macaron rosa crujiente, frambuesa y almizcle.",
     "imageUrl": "/fragancias-react/ariana-grande_ariana-grande-thank-u-next-fem.png",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["coco cremoso", "macaron", "frambuesa", "almizcle"],
+      "duration": "6 a 8 horas con estela tropical",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 67,
@@ -657,7 +982,12 @@
     "description": "Audaz, floral y especiada. Una interpretación moderna e irreverente de la rosa, con pimienta rosa, pera y maderas oscuras.",
     "imageUrl": "/fragancias-react/moschino_moschino-toy-boy.png",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["pimienta rosa", "pera", "rosa", "maderas oscuras"],
+      "duration": "8 a 10 horas con estela audaz",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 68,
@@ -667,7 +997,12 @@
     "description": "Luminosa, cítrica y mineral. Refresca con sorbete de limón, toques inusuales de orégano, acordes de arena y fresia.",
     "imageUrl": "/fragancias-react/moschino_moschino-toy-2-pearl-unisex.jpg",
     "featured": true,
-    "segment": "Unisex"
+    "segment": "Unisex",
+    "details": {
+      "notes": ["sorbete de limón", "orégano", "acordes de arena", "fresia"],
+      "duration": "6 a 8 horas con estela mineral",
+      "volume": "100 ml / Eau de Toilette"
+    }
   },
   {
     "id": 69,
@@ -677,7 +1012,12 @@
     "description": "Limpia, jabonosa y alegre. Huele a frescura pura con notas de manzana verde brillante, mandarina, magnolia y un almizcle pulcro.",
     "imageUrl": "/fragancias-react/moschino_moschino-toy-2-fem.webp",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["manzana verde", "mandarina", "magnolia", "almizcle pulcro"],
+      "duration": "6 a 8 horas con estela limpia",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 70,
@@ -687,7 +1027,12 @@
     "description": "Relajante, natural y muy fresca. Huele a limpio y al aire libre con toques de verbena cítrica, pomelo y bambú verde.",
     "imageUrl": "/fragancias-react/lacoste_lacoste-lacoste-verde.jpg",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["verbena cítrica", "pomelo", "bambú verde"],
+      "duration": "5 a 7 horas con estela fresca",
+      "volume": "100 ml / Eau de Toilette"
+    }
   },
   {
     "id": 71,
@@ -697,7 +1042,12 @@
     "description": "Aromática y juguetona. Combina a la perfección notas verdes de enebro, té negro elegante, violeta empolvada y pachulí.",
     "imageUrl": "/fragancias-react/lacoste_lacoste-lacoste-blue.webp",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["enebro", "té negro", "violeta", "pachulí"],
+      "duration": "6 a 8 horas con estela aromática",
+      "volume": "100 ml / Eau de Toilette"
+    }
   },
   {
     "id": 72,
@@ -707,7 +1057,12 @@
     "description": "Clásica, deportiva y pulcra. Un aroma inmensamente fresco con toronja, romero, nardos suaves y cuero blanco ligero.",
     "imageUrl": "/fragancias-react/lacoste_lacoste-lacoste-white.jpg",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["toronja", "romero", "nardos", "cuero blanco"],
+      "duration": "6 a 8 horas con estela deportiva",
+      "volume": "100 ml / Eau de Toilette"
+    }
   },
   {
     "id": 73,
@@ -717,7 +1072,12 @@
     "description": "Vibrante, masculina y muy seductora. Una auténtica bomba olfativa de menta fresca, manzana verde crujiente, haba tonka y vainilla.",
     "imageUrl": "/fragancias-react/versace_versace-eros.webp",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["menta", "manzana verde", "haba tonka", "vainilla"],
+      "duration": "8 a 10 horas con alta proyección",
+      "volume": "100 ml / Eau de Toilette"
+    }
   },
   {
     "id": 74,
@@ -727,7 +1087,12 @@
     "description": "Apasionada y de contrastes ardientes. Mezcla cítricos italianos jugosos con pimienta negra, romero y una rica vainilla amaderada.",
     "imageUrl": "/fragancias-react/versace_versace-eros-flame.webp",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["cítricos italianos", "pimienta negra", "romero", "vainilla"],
+      "duration": "8 a 10 horas con estela intensa",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 75,
@@ -737,7 +1102,12 @@
     "description": "Cítrica, luminosa y estimulante. Una explosión soleada de limón, mandarina y naranja sanguina sobre un fondo almizclado duradero.",
     "imageUrl": "/fragancias-react/versace_versace-eros-energy.jpg",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["limón", "mandarina", "naranja sanguina", "almizcle"],
+      "duration": "7 a 9 horas con estela luminosa",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 76,
@@ -747,7 +1117,12 @@
     "description": "Nocturna, golosa y seductora. Resalta de forma irresistible por su intensa nota de jugosas frutas del bosque, jazmín egipcio y haba tonka.",
     "imageUrl": "/fragancias-react/carolina-herrera_carolina-herrera-good-girl-supreme.webp",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["frutas del bosque", "jazmín egipcio", "haba tonka"],
+      "duration": "8 a 10 horas con estela seductora",
+      "volume": "80 ml / Eau de Parfum"
+    }
   },
   {
     "id": 77,
@@ -757,7 +1132,12 @@
     "description": "Puro verano embotellado. Una fragancia alegre, frutal y acuática dominada totalmente por la nota de sandía dulce y refrescante.",
     "imageUrl": "/fragancias-react/escada_escada-sorbetto-rosso.png",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["sandía", "notas acuáticas", "frutas dulces"],
+      "duration": "5 a 7 horas con estela veraniega",
+      "volume": "100 ml / Eau de Toilette"
+    }
   },
   {
     "id": 78,
@@ -767,7 +1147,12 @@
     "description": "Más luminosa y cremosa que la original. Combina de manera sublime dulce de leche, flores blancas voluptuosas y haba tonka tostada.",
     "imageUrl": "/fragancias-react/carolina-herrera_carolina-herrera-good-girl-legere.jpg",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["dulce de leche", "flores blancas", "haba tonka tostada"],
+      "duration": "7 a 9 horas con estela cremosa",
+      "volume": "80 ml / Eau de Parfum"
+    }
   },
   {
     "id": 79,
@@ -777,7 +1162,12 @@
     "description": "Femenina, afrutada y versátil. Una icónica y juguetona mezcla de melón dulce, durazno jugoso, fresia floral y almizcle limpio.",
     "imageUrl": "/fragancias-react/paris-hilton_paris-hilton-clasica.jpg",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["melón", "durazno", "fresia", "almizcle"],
+      "duration": "6 a 8 horas con estela afrutada",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 80,
@@ -787,7 +1177,12 @@
     "description": "Extremadamente coqueta y sensual. Evoca una vibra de fiesta con nectarinas dulces, clementinas radiantes, orquídea salvaje y ámbar cálido.",
     "imageUrl": "/fragancias-react/paris-hilton_paris-hilton-can-can.jpg",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["nectarinas", "clementinas", "orquídea", "ámbar"],
+      "duration": "7 a 9 horas con estela sensual",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 81,
@@ -797,17 +1192,27 @@
     "description": "Romántica, inocente y dulce. Un delicioso bocado azucarado de manzana roja crujiente, algodón de azúcar y pétalos de rosa rosada.",
     "imageUrl": "/fragancias-react/ralph-lauren_ralph-lauren-love.webp",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["manzana roja", "algodón de azúcar", "pétalos de rosa"],
+      "duration": "5 a 7 horas con estela dulce",
+      "volume": "100 ml / Eau de Toilette"
+    }
   },
   {
     "id": 82,
     "name": "Katy Perry Purr",
     "category": "Katy Perry",
-    "price":34.99,
+    "price": 34.99,
     "description": "Divertida y muy afrutada. Atrae con néctar de durazno, coco cremoso, manzana verde ácida y un fondo avainillado muy suave.",
     "imageUrl": "/fragancias-react/katy-perry_katy-perry-purr.webp",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["néctar de durazno", "coco", "manzana verde", "vainilla"],
+      "duration": "6 a 8 horas con estela afrutada",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 83,
@@ -817,7 +1222,12 @@
     "description": "Extremadamente dulce y acogedora. Destaca en la piel por sus ricas notas de pera, dulce madreselva, vainilla pura y almizcle.",
     "imageUrl": "/fragancias-react/katy-perry_katy-perry-meow.jpg",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["pera", "madreselva", "vainilla pura", "almizcle"],
+      "duration": "6 a 8 horas con estela acogedora",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 84,
@@ -827,7 +1237,12 @@
     "description": "Chispeante, alegre y rosa. Una composición floral-frutal dominada por la cereza ácida, el durazno maduro, la orquídea y la vainilla.",
     "imageUrl": "/fragancias-react/paris-hilton_paris-hilton-dazzle.webp",
     "featured": true,
-    "segment": "Femenino"
+    "segment": "Femenino",
+    "details": {
+      "notes": ["cereza ácida", "durazno maduro", "orquídea", "vainilla"],
+      "duration": "6 a 8 horas con estela chispeante",
+      "volume": "100 ml / Eau de Parfum"
+    }
   },
   {
     "id": 85,
@@ -837,7 +1252,12 @@
     "description": "Oriental, especiada y elegante. Juega con atractivos contrastes de pimienta blanca brillante, cacao oscuro, haba tonka y madera de cedro.",
     "imageUrl": "/fragancias-react/carolina-herrera_carolina-herrera-bad-boy.webp",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["pimienta blanca", "cacao oscuro", "haba tonka", "madera de cedro"],
+      "duration": "7 a 9 horas con estela elegante",
+      "volume": "100 ml / Eau de Toilette"
+    }
   },
   {
     "id": 86,
@@ -847,6 +1267,26 @@
     "description": "Intensamente dulce, rica y poderosa. Una mezcla arrolladora con rosa de Damasco, vainilla cremosa, haba tonka y un toque licoroso de davana.",
     "imageUrl": "/fragancias-react/paco-rabanne_paco-rabanne-1million-elixir.jpg",
     "featured": true,
-    "segment": "Masculino"
+    "segment": "Masculino",
+    "details": {
+      "notes": ["rosa de Damasco", "vainilla cremosa", "haba tonka", "davana"],
+      "duration": "9 a 12 horas con alta proyección",
+      "volume": "100 ml / Parfum Intense"
+    }
+  },
+  {
+    "id": 87,
+    "name": "Santal 33",
+    "category": "Le Labo",
+    "price": 34.99,
+    "description": "Un icono de culto que combina el sándalo ahumado con toques de cardamomo, cuero y maderas nobles para una firma olfativa inolvidable[cite: 1].",
+    "imageUrl": "/fragancias-react/santal-33.jpg",
+    "featured": true,
+    "segment": "Unisex",
+    "details": {
+      "notes": ["cardamomo", "sándalo australiano", "cuero", "papiro", "iris"],
+      "duration": "10 a 12 horas con estela inconfundible",
+      "volume": "100 ml / Eau de Parfum"
+    }
   }
 ]
