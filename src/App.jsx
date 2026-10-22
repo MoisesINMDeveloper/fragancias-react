@@ -22,12 +22,20 @@ function getProductDetails(product) {
   return product.details || fallbackDetails
 }
 
+function getProductPrice(product, showWholesale = false) {
+  if (showWholesale && product.wholesalePrice !== undefined) {
+    return product.wholesalePrice
+  }
+  return product.retailPrice || product.wholesalePrice || 0
+}
+
 function App() {
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedCategory, setSelectedCategory] = useState('Todos')
   const [selectedSegment, setSelectedSegment] = useState('Todos')
   const [selectedProduct, setSelectedProduct] = useState(null)
   const [isMobileHeaderHidden, setIsMobileHeaderHidden] = useState(false)
+  const [showWholesalePrices, setShowWholesalePrices] = useState(false)
   const categories = ['Todos', ...new Set(products.map((product) => product.category))]
   const segments = ['Todos', ...new Set(products.map((product) => product.segment))]
 
@@ -101,6 +109,28 @@ function App() {
           </div>
         </div>
 
+        <div className="price-toggle-container">
+          <label className="price-toggle-label" htmlFor="price-toggle">
+            <span className="toggle-label-left">Al detal</span>
+            <div className="toggle-switch">
+              <input
+                id="price-toggle"
+                type="checkbox"
+                checked={showWholesalePrices}
+                onChange={() => setShowWholesalePrices(!showWholesalePrices)}
+                aria-label={showWholesalePrices ? "Mostrando precios al mayor" : "Mostrando precios al detal"}
+              />
+              <span className="toggle-slider"></span>
+            </div>
+            <span className="toggle-label-right">Al mayor</span>
+          </label>
+          <div className="price-toggle-hint">
+            {showWholesalePrices ? 
+              "Precios especiales para compras al por mayor" : 
+              "Precios para compras individuales"}
+          </div>
+        </div>
+
         <nav className="main-nav" aria-label="Navegación principal">
           {siteContent.navigation.map((link) => (
             <a key={link.href} href={link.href}>
@@ -159,10 +189,17 @@ function App() {
                 <p>{siteContent.hero.featured?.description || featuredProduct.description}</p>
                 <div className="floating-price">
                   <span>{siteContent.hero.featured?.priceLabel || 'Precio'}</span>
-                  <strong>
-                    {currency}
-                    {featuredProduct.price}
-                  </strong>
+                  <div className="featured-price-container">
+                    <strong className="featured-price-amount">
+                      {currency}
+                      {getProductPrice(featuredProduct, showWholesalePrices)}
+                    </strong>
+                    {showWholesalePrices ? (
+                      <span className="price-badge wholesale-badge featured-price-badge">Al mayor</span>
+                    ) : (
+                      <span className="price-badge retail-badge featured-price-badge">Al detal</span>
+                    )}
+                  </div>
                 </div>
               </div>
             </article>
@@ -267,10 +304,17 @@ function App() {
                       <strong>{getProductDetails(product).duration}</strong>
                     </div>
                     <div className="product-footer">
-                      <strong>
-                        {currency}
-                        {product.price}
-                      </strong>
+                      <div className="price-container">
+                        <strong className="price-amount">
+                          {currency}
+                          {getProductPrice(product, showWholesalePrices)}
+                        </strong>
+                        {showWholesalePrices ? (
+                          <span className="price-badge wholesale-badge">Al mayor</span>
+                        ) : (
+                          <span className="price-badge retail-badge">Al detal</span>
+                        )}
+                      </div>
                       <button type="button" onClick={() => setSelectedProduct(product)}>
                         {siteContent.catalog.detailLabel}
                       </button>
@@ -297,6 +341,19 @@ function App() {
             </div>
           </div>
           <p>{siteContent.footer.description}</p>
+          <div className="footer-contact-info">
+            <p className="contact-subtitle">{siteContent.footer.contactInfo}</p>
+            <div className="contact-channels">
+              <a href={siteContent.footer.whatsapp} className="contact-channel" target="_blank" rel="noreferrer">
+                <PhoneIcon className="contact-icon" aria-hidden="true" />
+                <span>WhatsApp: +58 412-4676968</span>
+              </a>
+              <a href={siteContent.footer.instagram} className="contact-channel" target="_blank" rel="noreferrer">
+                <CameraIcon className="contact-icon" aria-hidden="true" />
+                <span>Instagram: @minm.fragancias</span>
+              </a>
+            </div>
+          </div>
         </div>
 
         <div className="footer-links">
@@ -357,8 +414,15 @@ function App() {
               <span className="eyebrow">{selectedProduct.category}</span>
               <h3>{selectedProduct.name}</h3>
               <div className="modal-price">
-                {currency}
-                {selectedProduct.price}
+                <span className="modal-price-amount">
+                  {currency}
+                  {getProductPrice(selectedProduct, showWholesalePrices)}
+                </span>
+                {showWholesalePrices ? (
+                  <span className="price-badge wholesale-badge modal-price-badge">Al mayor</span>
+                ) : (
+                  <span className="price-badge retail-badge modal-price-badge">Al detal</span>
+                )}
               </div>
               <p>{selectedProduct.description}</p>
 

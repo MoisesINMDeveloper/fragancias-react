@@ -25,16 +25,16 @@
     }
   ],
   "hero": {
-    "eyebrow": "Perfumes premium",
-    "title": "Fragancias que dejan huella.",
-    "description": "Creaciones sensoriales pensadas para acompañarte con intensidad, elegancia y un estilo inolvidable.",
+    "eyebrow": "Perfumería premium al mayor y detal",
+    "title": "Fragancias de alta calidad a excelente precio.",
+    "description": "Creaciones sensoriales pensadas para acompañarte con intensidad, elegancia y un estilo inolvidable. Trabajamos bajo pedido con envíos a todo el territorio nacional.",
     "primaryCta": {
       "label": "Ver colección",
       "href": "#productos"
     },
     "secondaryCta": {
-      "label": "Conocer la marca",
-      "href": "#nosotros"
+      "label": "Contactar por WhatsApp",
+      "href": "https://wa.me/584124676968"
     },
     "featuredLabel": "Destacado",
     "featured": {
@@ -58,27 +58,27 @@
   },
   "about": {
     "eyebrow": "Nuestra esencia",
-    "title": "Fragancias creadas para sentirse bien.",
-    "description": "En MINM Fragancias seleccionamos perfumes con una mirada exigente: ingredientes memorables, mezclas sofisticadas y una experiencia sensorial que acompaña tu identidad en cada momento.",
-    "secondaryDescription": "Nuestra colección reúne 12 aromas con carácter propio, elegidos por su equilibrio entre presencia, elegancia y una estela que permanece contigo.",
+    "title": "Perfumería de alta calidad a buen precio.",
+    "description": "En MINM Fragancias nos especializamos en perfumería de alta calidad con excelente relación calidad-precio. Vendemos tanto al mayor como al detal, trabajando siempre bajo pedido para garantizar la frescura de nuestros productos.",
+    "secondaryDescription": "Realizamos envíos a todo el territorio nacional y contamos con un catálogo de más de 80 aromas cuidadosamente seleccionados por su equilibrio entre presencia, elegancia y una estela que permanece contigo.",
     "stats": [
       {
-        "value": "96%",
-        "label": "Ingredientes de origen sostenible"
+        "value": "+80",
+        "label": "Aromas disponibles"
       },
       {
-        "value": "12",
-        "label": "Aromas de autor"
+        "value": "Todo",
+        "label": "Territorio nacional"
       },
       {
-        "value": "8h+",
-        "label": "Permanencia garantizada"
+        "value": "Bajo pedido",
+        "label": "Frescura garantizada"
       }
     ]
   },
   "catalog": {
     "eyebrow": "Colección",
-    "title": "Perfumes para cada momento",
+    "title": "Perfumes al mayor y detal",
     "searchPlaceholder": "Buscar aroma...",
     "searchLabel": "Buscar aromas",
     "categoryLabel": "Filtrar por familia",
@@ -86,8 +86,11 @@
     "segmentLabel": "Filtrar por género",
     "allSegmentsLabel": "Todos",
     "emptyMessage": "No encontramos coincidencias para tu búsqueda.",
-    "availabilityLabel": "Disponible",
-    "detailLabel": "Ver detalle"
+    "availabilityLabel": "Bajo pedido",
+    "detailLabel": "Ver detalle",
+    "priceToggleLabel": "Ver precios al mayor",
+    "retailPriceLabel": "Precio al detal",
+    "wholesalePriceLabel": "Precio al mayor"
   },
   "modal": {
     "closeLabel": "Cerrar detalle del producto",
@@ -100,25 +103,26 @@
     "continueLabel": "Seguir explorando"
   },
   "footer": {
-    "description": "Perfumes premium con identidad propia, creados para despertar recuerdos inolvidables.",
+    "description": "Perfumería de alta calidad al mayor y detal. Trabajamos bajo pedido con envíos a todo el territorio nacional.",
+    "contactInfo": "Contáctanos para más información y pedidos:",
+    "whatsapp": "https://wa.me/584124676968",
+    "instagram": "https://instagram.com/minm.fragancias",
     "navigationTitle": "Navegación",
-    "socialTitle": "Social",
+    "socialTitle": "Contáctanos",
     "socialLinks": [
       {
         "label": "Instagram",
-        "href": "https://instagram.com"
-      },
-      {
-        "label": "Pinterest",
-        "href": "https://pinterest.com"
+        "href": "https://instagram.com/minm.fragancias",
+        "description": "Síguenos para novedades"
       },
       {
         "label": "WhatsApp",
-        "href": "https://wa.me/584124676968"
+        "href": "https://wa.me/584124676968",
+        "description": "Pide información y haz pedidos"
       }
     ],
-    "copyright": "© 2026 MINM Fragancias. Todos los derechos reservados.",
-    "tagline": "Diseñado para experiencias olfativas memorables."
+    "copyright": "© 2026 MINM Fragancias - Perfumería al mayor y detal. Todos los derechos reservados.",
+    "tagline": "Alta calidad a excelente precio, con envíos nacionales."
   },
   "metadata": {
     "title": "MINM Fragancias",
